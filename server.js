@@ -9,7 +9,7 @@ const PORT = process.env.PORT || 3500;
 app.use(bodyParser.urlencoded({ extended: true}));
 app.use(bodyParser.json());
 
-require("./app/routing/apiRoutes.js")
+require("./app/routing/apiRoutes.js")(app)
 require("./app/routing/htmlRoutes.js")(app)
 
 

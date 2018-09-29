@@ -1,5 +1,5 @@
 
-
+//This is the data that will be pulled for best match
 const friendsArray = [
     {
         name: "George Singer",

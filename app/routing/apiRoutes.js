@@ -2,6 +2,7 @@ const path = require("path");
 const friendsData = require("../data/friends")
 module.exports = function(app){
     const userArr = [];
+    let matchFriend = 0;
 
     // console.log(userArr)
     app.get("/api/friends", function(req, res) {
@@ -31,10 +32,20 @@ app.post("/api/friends", function(req, res) {
        
    })
    userArr.push(scoresDiff)
-    console.log(userArr)
+    //console.log(userArr)
 })
+    userArr.forEach(element => {
+        if(element.userArr <= userArr[matchFriend]){
+            //matchFriend = 
+            console.log(matchFriend)
+        }
+    })
+    friendsData.push(req.body)
+    const newMatch = friendsData[matchFriend];
+    res.json(newMatch)
    
-        
+    
+    
     }
 
 

@@ -3,7 +3,7 @@
 
 
 <strong>Link to Application<strong>
-https://dashboard.heroku.com/apps/safe-plateau-50329/settings
+https://safe-plateau-50329.herokuapp.com/
 
 This application will take in results taht are take from the user by way of a survery.
 The User will add there Name and an Image. The user will take the Survey and submit the survey. This application will then display the name and picture of a best match overall.

@@ -11,14 +11,26 @@ module.exports = function(app){
 app.post("/api/friends", function(req, res) {
     const newFriend = req.body
     newFriend.routeName = newFriend.name.replace(/\s+/g, "").toLowerCase();
-    console.log(newFriend.scores)
-    // const popped = newFriend.routeName.pop();
-    // console.log(popped)
+    const arrayNums = newFriend.scores
+     console.log(arrayNums)
+    arrayNums.forEach(num=>{
+        console.log(num)
+    })
 
-//     const formNumbers = (numbersArr) => {
-//         Pop(newFriend)
-//         console.log(newFriend)
-//     }
-// formNumbers()
+   friendsData.forEach(item => {
+       console.log(item)
+       
+   })
+
+    const formNumbers = (numbersArr) => {
+        // arrayNums.forEach(item => {
+        // let completeScore = item.
+        // console.log(completeScore)
+        // let sumNumbers = arrayNums.reduce((acc, cur) =>  acc + cur )
+        // console.log(sumNumbers)
+        // })
+        
+    }
+formNumbers()
   });
 }

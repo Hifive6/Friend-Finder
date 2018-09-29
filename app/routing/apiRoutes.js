@@ -48,6 +48,7 @@ app.post("/api/friends", function(req, res) {
         // })
         // userArr.push(scoresDiff)
             //console.log(userArr)
+           
     })
     console.log(bestMatch)
     // userArr.forEach(element => {
@@ -56,10 +57,11 @@ app.post("/api/friends", function(req, res) {
     //         console.log(matchFriend)
     //     }
     // })
-    // friendsData.push(req.body)
+    
+    //bestMatch.push(req.body)
     // const newMatch = friendsData[matchFriend];
     res.json(bestMatch)
-   
+   friendsData.push(req.body)
     
     
     }

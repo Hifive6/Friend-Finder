@@ -22,6 +22,8 @@ that was created and pull from, to set up the best match.
 Express will be used for Get routes to get data from the friends data and will be used to handle incoming survey results.
 Express was also used for Post route for posting the html to the browers and  will be used to handle incoming survey results. This route will also be used to handle the compatibility logic.
 
+<hr>
+
 <h3><strong>Technology Used</strong><h3>
 <ul>
 <li>Express</li>
